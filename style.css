@@ -23,3 +23,19 @@ img{
     border-radius: 10%;
     border: 3px solid rgb(54, 54, 54);
 }
+
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 70px;
+    height: 17px;
+    border: 2px solid #fff;
+    margin: 6px;
+
+}
