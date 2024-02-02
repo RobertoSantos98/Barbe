@@ -8,21 +8,28 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li>
+    
+    <header>
+        <nav>
+            <ul>
+                <li>
             <a href="index.html">Home</a>
           </li>
-          <li>
+                 <li>
             <a href="ListaDeEspera.html">Lista de Espera</a>
            </li>
-            <li>
+               <li>
             <a href="Contato.html">Contato</a>
            </li>
         </ul>
 
+     </nav>
+
+
+    </header>
+
         <div class="slides">
-            <input class="input" type="radio" name="slide" id="slide1">
+            <input class="input" type="radio" name="slide" id="slide1" checked>
             <input class="input" type="radio" name="slide" id="slide2">
             <input class="input" type="radio" name="slide" id="slide3">
         </div>
@@ -30,10 +37,24 @@
 
         <div class="slide">
             <img src="Imagens/imagem1.jpg" alt="Imagem">
+        </div>
+        
+        <div class="slide">
             <img src="Imagens/imagem2.png" alt="Imagem">
+        </div>
+        
+        <div class="slide">
             <img src="Imagens/imagem3.jfif" alt="Imagem">
         </div>
-    </nav>
+        
+        <div class="navigation">
+            <label class="bar" for="slide1"></label>
+            <label class="bar" for="slide2"></label>
+            <label class="bar" for="slide3"></label>
+
+        </div>
+
+   
 </body>
 
 </html>
